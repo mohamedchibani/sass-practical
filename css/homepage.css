@@ -27,6 +27,22 @@
   clear: both;
 }
 
+.main-button {
+  background-color: rgba(226, 73, 76, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  min-width: 120px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #e2494c;
+}
+
 .head-with-border {
   position: relative;
 }
@@ -55,6 +71,7 @@ body {
   background-color: #f6f6f6;
   font-family: Tahoma;
   font-size: 16px;
+  height: 4000px;
 }
 
 ul,
@@ -200,4 +217,10 @@ ol {
 }
 
 /* end lorem ipsum */
+/* start footer */
+.footer {
+  background-color: #9c9c9c;
+}
+
+/* end footer */
 /*# sourceMappingURL=homepage.css.map */
