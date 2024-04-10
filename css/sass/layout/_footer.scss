@@ -40,15 +40,62 @@
 
   .info {
     width: 25%;
+    ul {
+      color: #888;
+      line-height: 1.8;
+      li {
+        span {
+          color: $redColor;
+        }
+      }
+    }
+    h4 {
+      color: #888;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    p {
+      color: #888;
+      margin-top: 8px;
+    }
   }
 
   .contact {
     width: 25%;
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      border: 1px solid #888;
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    textarea {
+      height: 140px;
+    }
   }
 
   .section-title {
     color: #444;
     font-weight: normal;
+  }
+
+  .copyright {
+    padding: 25px 0;
+    border-top: 1px solid #c5c5c5;
+    overflow: hidden;
+    color: #888;
+    .text,
+    .author {
+      float: $float-left;
+      width: 50%;
+    }
+
+    .author {
+      text-align: $text-right;
+    }
   }
 }
 
