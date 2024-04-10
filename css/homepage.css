@@ -23,6 +23,10 @@
   position: relative;
 }
 
+.clearfix {
+  clear: both;
+}
+
 .head-with-border {
   position: relative;
 }
@@ -157,4 +161,30 @@ ol {
 }
 
 /* end services */
+/* start our players */
+.our-players .player-box {
+  float: left;
+  width: 20%;
+  padding-right: 20px;
+}
+.our-players .player-box .player-img {
+  max-width: 100%;
+}
+.our-players .player-box .player-title {
+  color: #666;
+  font-weight: normal;
+}
+.our-players .player-box .player-title span {
+  font-weight: bold;
+}
+.our-players .player-box .player-desc {
+  color: #777;
+  line-height: 1.5;
+}
+.our-players .player-box .link {
+  color: #e2494c;
+  text-decoration: none;
+}
+
+/* end our players */
 /*# sourceMappingURL=homepage.css.map */

@@ -71,3 +71,35 @@
   }
 }
 /* end services */
+
+/* start our players */
+.our-players {
+  .player-box {
+    float: left;
+    width: calc(100% / 5);
+    padding-right: 20px;
+
+    .player-img {
+      max-width: 100%;
+    }
+
+    .player-title {
+      color: #666;
+      font-weight: normal;
+      span {
+        font-weight: bold;
+      }
+    }
+
+    .player-desc {
+      color: #777;
+      line-height: 1.5;
+    }
+
+    .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+/* end our players */
