@@ -187,4 +187,17 @@ ol {
 }
 
 /* end our players */
+/* start lorem ipsum */
+.lorem-ipsum .lorem-box {
+  float: left;
+  width: 31.3333333333%;
+}
+.lorem-ipsum .lorem-box:not(:last-of-type) {
+  margin-right: 3%;
+}
+.lorem-ipsum .lorem-box .lorem-img {
+  max-width: 100%;
+}
+
+/* end lorem ipsum */
 /*# sourceMappingURL=homepage.css.map */

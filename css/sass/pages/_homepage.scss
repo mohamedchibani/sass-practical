@@ -103,3 +103,18 @@
   }
 }
 /* end our players */
+
+/* start lorem ipsum */
+.lorem-ipsum {
+  .lorem-box {
+    float: $float-left;
+    width: (94% / 3);
+    &:not(:last-of-type) {
+      margin-right: 3%;
+    }
+    .lorem-img {
+      max-width: 100%;
+    }
+  }
+}
+/* end lorem ipsum */
