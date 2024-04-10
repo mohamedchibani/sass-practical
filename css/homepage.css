@@ -219,7 +219,53 @@ ol {
 /* end lorem ipsum */
 /* start footer */
 .footer {
-  background-color: #9c9c9c;
+  background-color: #e2e2e2;
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+}
+.footer .gallery,
+.footer .info,
+.footer .contact {
+  float: left;
+}
+.footer .gallery {
+  width: 50%;
+}
+.footer .gallery .img-box {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.footer .gallery .img-box img {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.footer .gallery .img-box .text {
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: calc(100% - 180px);
+}
+.footer .gallery .img-box .text h4 {
+  color: #e2494c;
+  margin: 15px 0 0px;
+}
+.footer .gallery .img-box .text p {
+  color: #888;
+  line-height: 1.9;
+  margin-top: 5px;
+}
+.footer .info {
+  width: 25%;
+}
+.footer .contact {
+  width: 25%;
+}
+.footer .section-title {
+  color: #444;
+  font-weight: normal;
 }
 
 /* end footer */
