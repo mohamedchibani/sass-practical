@@ -39,3 +39,35 @@
   }
 }
 /*end slider*/
+
+/* start services */
+.services {
+  .service-box {
+    float: left;
+    width: calc(100% / 3);
+    &:not(:last-of-type) {
+      padding-right: 20px;
+    }
+
+    .service-title {
+      color: #666;
+      i {
+        font-size: 30px;
+        position: relative;
+        top: 4px;
+        margin-right: 4px;
+      }
+    }
+
+    .service-desc {
+      color: #777;
+      line-height: 1.5;
+    }
+
+    .link {
+      color: $redColor;
+      text-decoration: none;
+    }
+  }
+}
+/* end services */
