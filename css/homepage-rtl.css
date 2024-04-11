@@ -81,4 +81,14 @@
 .element {
   color: #698aa2;
 }
+
+.element .child {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /*# sourceMappingURL=homepage-rtl.css.map */

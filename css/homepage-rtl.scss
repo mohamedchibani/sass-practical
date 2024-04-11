@@ -107,3 +107,22 @@ $text-left: right;
 .element {
   color: mix(#036, #d2e1dd);
 }
+
+.element {
+  .child {
+    font: {
+      weight: bold;
+      size: 20px;
+      family: Arial;
+    }
+
+    border: {
+      right: 1px solid #ccc;
+      left: 1px solid #ddd;
+    }
+    padding: {
+      left: 10px;
+      right: 10px;
+    }
+  }
+}
