@@ -102,3 +102,8 @@ $text-left: right;
 }
 
 /* end footer */
+
+/* test element mix function */
+.element {
+  color: mix(#036, #d2e1dd);
+}
