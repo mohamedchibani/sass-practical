@@ -103,26 +103,14 @@ $text-left: right;
 
 /* end footer */
 
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.element {
+  @extend .error;
+  font-size: 20px;
+}
+
 /* test element mix function */
-.element {
-  color: mix(#036, #d2e1dd);
-}
-
-.element {
-  .child {
-    font: {
-      weight: bold;
-      size: 20px;
-      family: Arial;
-    }
-
-    border: {
-      right: 1px solid #ccc;
-      left: 1px solid #ddd;
-    }
-    padding: {
-      left: 10px;
-      right: 10px;
-    }
-  }
-}
