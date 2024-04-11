@@ -103,13 +103,17 @@ $text-left: right;
 
 /* end footer */
 
-.error {
+%error {
   color: red;
   font-weight: bold;
 }
 
+%background-cover {
+  -webkit-background-size: cover;
+}
+
 .element {
-  @extend .error;
+  @extend %background-cover;
   font-size: 20px;
 }
 

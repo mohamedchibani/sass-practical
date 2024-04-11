@@ -77,9 +77,8 @@
 }
 
 /* end footer */
-.error, .element {
-  color: red;
-  font-weight: bold;
+.element {
+  -webkit-background-size: cover;
 }
 
 .element {
