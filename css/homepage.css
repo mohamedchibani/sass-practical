@@ -340,15 +340,25 @@ ol {
 
 /* end our players */
 /* start lorem ipsum */
+.lorem-ipsum {
+  text-align: center;
+}
 .lorem-ipsum .lorem-box {
-  float: left;
-  width: 31.3333333333%;
+  margin-bottom: 20px;
 }
-.lorem-ipsum .lorem-box:not(:last-of-type) {
-  margin-right: 3%;
+@media (min-width: 768px) {
+  .lorem-ipsum .lorem-box {
+    float: left;
+    width: 45%;
+  }
+  .lorem-ipsum .lorem-box:not(:last-of-type) {
+    margin-right: 3%;
+  }
 }
-.lorem-ipsum .lorem-box .lorem-img {
-  max-width: 100%;
+@media (min-width: 992px) {
+  .lorem-ipsum .lorem-box {
+    width: 30%;
+  }
 }
 
 /* end lorem ipsum */
@@ -365,23 +375,36 @@ ol {
 .footer .contact {
   float: left;
 }
-.footer .gallery {
-  width: 50%;
+@media (min-width: 768px) {
+  .footer .gallery {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .footer .gallery {
+    width: 50%;
+  }
 }
 .footer .gallery .img-box {
   overflow: hidden;
   margin-bottom: 20px;
 }
 .footer .gallery .img-box img {
-  float: left;
   width: 150px;
   height: 150px;
 }
-.footer .gallery .img-box .text {
-  float: left;
-  margin-right: 15px;
-  margin-left: 15px;
-  width: calc(100% - 180px);
+@media (min-width: 768px) {
+  .footer .gallery .img-box img {
+    float: left;
+  }
+}
+@media (min-width: 768px) {
+  .footer .gallery .img-box .text {
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: calc(100% - 180px);
+  }
 }
 .footer .gallery .img-box .text h4 {
   color: #e2494c;
@@ -392,8 +415,15 @@ ol {
   line-height: 1.9;
   margin-top: 5px;
 }
-.footer .info {
-  width: 25%;
+@media (min-width: 768px) {
+  .footer .info {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .footer .info {
+    width: 25%;
+  }
 }
 .footer .info ul {
   color: #888;
@@ -411,8 +441,15 @@ ol {
   color: #888;
   margin-top: 8px;
 }
-.footer .contact {
-  width: 25%;
+@media (min-width: 768px) {
+  .footer .contact {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .footer .contact {
+    width: 25%;
+  }
 }
 .footer .contact input[type=text],
 .footer .contact input[type=email],
@@ -431,6 +468,7 @@ ol {
   font-weight: normal;
 }
 .footer .copyright {
+  margin-top: 30px;
   padding: 25px 0;
   border-top: 1px solid #c5c5c5;
   overflow: hidden;
