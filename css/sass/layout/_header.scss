@@ -53,6 +53,10 @@
       @media #{$maxMobile} {
         display: block;
         float: none;
+        width: 100%;
+        text-align: $text-left;
+        padding-left: 10px;
+        padding-right: 10px;
       }
       a {
         display: block;

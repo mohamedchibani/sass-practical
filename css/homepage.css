@@ -102,6 +102,11 @@
   padding: 10px 15px;
   text-transform: uppercase;
 }
+@media (max-width: 767px) {
+  .head-with-border h2 {
+    max-width: 300px;
+  }
+}
 .head-with-border h2:before {
   content: "";
   width: 100%;
@@ -188,6 +193,10 @@ ol {
   .header .navbar li {
     display: block;
     float: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 .header .navbar li a {
@@ -281,9 +290,34 @@ ol {
 /* end services */
 /* start our players */
 .our-players .player-box {
-  float: left;
-  width: 20%;
   padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .our-players .player-box {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .our-players .player-box {
+    width: 33.3333333333%;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .our-players .player-box {
+    width: 20%;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .our-players .player-box {
+    margin-bottom: 40px;
+  }
 }
 .our-players .player-box .player-img {
   max-width: 100%;
