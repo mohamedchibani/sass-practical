@@ -48,7 +48,6 @@
 
     @media #{$minMedium} {
       width: (100% / 3);
-      float: $float-left;
       &:not(:last-of-type) {
         padding-right: 20px;
       }

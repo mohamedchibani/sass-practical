@@ -72,6 +72,7 @@
   top: 18px;
   right: 15px;
   display: none;
+  outline: none;
 }
 @media (max-width: 767px) {
   .the-toggler {
@@ -131,6 +132,7 @@ ol {
   padding: 0;
 }
 
+/* start header */
 .header {
   padding: 20px 0;
   overflow: hidden;
@@ -209,6 +211,7 @@ ol {
   color: #ddd;
 }
 
+/* end header */
 /*  start slider*/
 .slider {
   text-align: center;
@@ -253,7 +256,6 @@ ol {
 @media (min-width: 992px) {
   .services .service-box {
     width: 33.3333333333%;
-    float: left;
   }
   .services .service-box:not(:last-of-type) {
     padding-right: 20px;
