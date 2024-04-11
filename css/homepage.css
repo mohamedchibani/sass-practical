@@ -57,6 +57,32 @@
   background-color: #e2494c;
 }
 
+.the-toggler {
+  background-color: #e2494c;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  display: none;
+}
+@media (max-width: 767px) {
+  .the-toggler {
+    display: block;
+  }
+}
+.the-toggler span {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+.the-toggler span:not(:last-child) {
+  margin-bottom: 5px;
+}
+
 .head-with-border {
   position: relative;
 }
@@ -100,8 +126,7 @@ ol {
   border-bottom: 1px solid #9c9c9c;
 }
 .header .logo {
-  width: 30%;
-  float: left;
+  position: relative;
 }
 @media (min-width: 768px) {
   .header .logo {
@@ -131,6 +156,7 @@ ol {
     width: 100%;
     float: none;
     margin-top: 30px;
+    display: block !important;
   }
 }
 @media (min-width: 992px) {
@@ -140,11 +166,23 @@ ol {
     margin-top: 1em;
   }
 }
+@media (max-width: 767px) {
+  .header .navbar {
+    display: none;
+    border-radius: 0;
+  }
+}
 .header .navbar li {
   width: 20%;
   float: left;
   font-size: 18px;
   text-align: center;
+}
+@media (max-width: 767px) {
+  .header .navbar li {
+    display: block;
+    float: none;
+  }
 }
 .header .navbar li a {
   display: block;

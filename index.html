@@ -20,6 +20,11 @@
         <div class="logo">
           <h1>Composition</h1>
           <p>Free psd website template</p>
+          <button class="the-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
         <ul class="navbar">
           <li><a href="#">Homepage</a></li>
@@ -259,6 +264,17 @@
     </div>
     <!--  end footer -->
 
-    <sript src="js/jquery-1.12.4.js"></sript>
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $(".the-toggler").on("click", function () {
+          $(".navbar").slideToggle();
+        });
+      });
+    </script>
   </body>
 </html>
